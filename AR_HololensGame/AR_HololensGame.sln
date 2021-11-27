@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Tool
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem", "Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.csproj", "{A3931B73-21FD-87BF-524E-CB12C65C1234}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{05F925E8-26D5-8274-B83B-CB991839FCE9}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Editor.Inspectors", "Microsoft.MixedReality.Toolkit.Editor.Inspectors.csproj", "{797A4519-0085-51C1-7D4C-FBEAEB1139FA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor", "Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.csproj", "{F2DA3CEF-088D-8359-508E-B350B1554240}"
@@ -77,13 +79,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Tool
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MRTK.OpenXR.Editor", "MRTK.OpenXR.Editor.csproj", "{88AEFF7A-DAB5-166E-C66C-042CA4F35F45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{A662C0A8-CCF7-3D9E-F7B1-7D8F766C293A}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor", "Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.csproj", "{83712A75-91E0-7F3D-CFD5-3B154465BBF4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor", "Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.csproj", "{2EBFB72B-CF99-0137-92D6-98DA63356D5A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor", "Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.csproj", "{B208B534-C89E-65BA-96E3-6CED8C7A4F35}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{A662C0A8-CCF7-3D9E-F7B1-7D8F766C293A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -179,6 +181,10 @@ Global
 		{A3931B73-21FD-87BF-524E-CB12C65C1234}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3931B73-21FD-87BF-524E-CB12C65C1234}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3931B73-21FD-87BF-524E-CB12C65C1234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05F925E8-26D5-8274-B83B-CB991839FCE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05F925E8-26D5-8274-B83B-CB991839FCE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05F925E8-26D5-8274-B83B-CB991839FCE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05F925E8-26D5-8274-B83B-CB991839FCE9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{797A4519-0085-51C1-7D4C-FBEAEB1139FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{797A4519-0085-51C1-7D4C-FBEAEB1139FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{797A4519-0085-51C1-7D4C-FBEAEB1139FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -243,6 +249,10 @@ Global
 		{88AEFF7A-DAB5-166E-C66C-042CA4F35F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88AEFF7A-DAB5-166E-C66C-042CA4F35F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88AEFF7A-DAB5-166E-C66C-042CA4F35F45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A662C0A8-CCF7-3D9E-F7B1-7D8F766C293A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A662C0A8-CCF7-3D9E-F7B1-7D8F766C293A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A662C0A8-CCF7-3D9E-F7B1-7D8F766C293A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A662C0A8-CCF7-3D9E-F7B1-7D8F766C293A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{83712A75-91E0-7F3D-CFD5-3B154465BBF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{83712A75-91E0-7F3D-CFD5-3B154465BBF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83712A75-91E0-7F3D-CFD5-3B154465BBF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -255,10 +265,6 @@ Global
 		{B208B534-C89E-65BA-96E3-6CED8C7A4F35}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B208B534-C89E-65BA-96E3-6CED8C7A4F35}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B208B534-C89E-65BA-96E3-6CED8C7A4F35}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A662C0A8-CCF7-3D9E-F7B1-7D8F766C293A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A662C0A8-CCF7-3D9E-F7B1-7D8F766C293A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A662C0A8-CCF7-3D9E-F7B1-7D8F766C293A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A662C0A8-CCF7-3D9E-F7B1-7D8F766C293A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
