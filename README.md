@@ -11,7 +11,7 @@ Using the Microsoft Hololens mixed reality headset, users can see the physical r
 - Virtual elements overlaid on the physical racetrack.
 - Interactive gameplay with gesture recognition and voice commands.
 - Arduino control of the robotic car for precise movement and control.
-- Multiplayer functionality for competitive racing experiences.
+- Multiplayer functionality TBD for competitive racing experiences.
 
 ## Requirements
 - Microsoft Hololens mixed reality headset
